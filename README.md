@@ -17,6 +17,8 @@ docker pull devdb/redis:latest
 docker run -d --name redis -p 6379:6379 -v /tmp/redis:/var/lib/redis devdb/redis:latest
 ```
 
+where `/tmp/redis` is where you want it to dump all the data files on your host.
+
 ## Cluster
 
 Coming soon!
