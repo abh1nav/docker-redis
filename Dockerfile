@@ -10,7 +10,7 @@ RUN \
     apt-get update; \
     apt-get install -y -qq gcc make; \
     mkdir -p /opt/redis; \
-    wget -O - http://download.redis.io/releases/redis-2.8.19.tar.gz | tar xzf - --strip-components=1 -C "/opt/redis"; \
+    wget -O - http://download.redis.io/releases/redis-2.8.20.tar.gz | tar xzf - --strip-components=1 -C "/opt/redis"; \
     cd /opt/redis; \
     make; \
     cp src/redis-server /usr/local/bin; \

@@ -1,6 +1,6 @@
 # DevDB Redis
 
-Redis 2.8.19 in a docker container - for when you need a quick Redis deployment.
+Redis 2.8.20 in a docker container - for when you need a quick Redis deployment.
 You can easily inherit from this container to build, say, a NodeJS container with Redis built-in. See example [here](https://github.com/crowdriff/docker-nodejs).
 
 ## Single Node with Ephemeral Storage
